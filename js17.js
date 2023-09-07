@@ -1,4 +1,4 @@
-//GET 방식
+//GET 방식``
 const http = require("http");
 const url = require("url");
 
