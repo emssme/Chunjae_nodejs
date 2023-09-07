@@ -1,5 +1,5 @@
 const http = require('http');
-let port = 3000;
+let port = 3300;
 let host = '127.0.0.1';
 let myName = "김보경";
 let tmp = String.raw`<!DOCTYPE html>
