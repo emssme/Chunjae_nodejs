@@ -1,6 +1,6 @@
 //GET 방식``
-const http = require("http");
-const url = require("url");
+const http = require('http');
+const url = require('url');
 
 const app = http.createServer((request, response) => {
     response.writeHead(200, {'Content-Type' : 'text/html; charset=UTF-8'});
