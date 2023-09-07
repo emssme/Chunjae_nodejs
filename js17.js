@@ -1,9 +1,10 @@
+//GET 방식
 const http = require("http");
 const url = require("url");
 
 const app = http.createServer((request, response) => {
     response.writeHead(200, {'Content-Type' : 'text/html; charset=UTF-8'});
-    var queryData = url.parse(request.url, true).query;
+    var queryData = url.parse(request.url, true).query; //쿼리스트링만 추출(?뒤만 추출)
     var tmp1 = `<!DOCTYPE html>
     <html lang="en">
     <head>
